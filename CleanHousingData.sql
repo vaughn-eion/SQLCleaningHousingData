@@ -81,7 +81,7 @@ Select *
 From Housing_Data;
 
 ---------------------------------------------------------------------------------------------
--- Change 0 and 1 to Yes and No in "Sold as vacant"
+-- Change 0 and 1 to No and Yes in "Sold as vacant"
 
 Select Distinct(SoldAsVacant), Count(SoldAsVacant)
 From Housing_Data
